@@ -6,16 +6,16 @@ Observable.js is a simple on, off & trigger implementation that can be easily mi
 var events = Observable();
 
 // Listen to something
-observable.on('fire', function(isDrill) {
+events.on('fire', function(isDrill) {
   if (isDrill) return;
   alert('Ahhh!!! A fire!');
 });
 
 // Fire a listener
-observable.trigger('fire', false);
+events.trigger('fire', false);
 
 // Unregister the listener(s)
-observable.off('fire');
+events.off('fire');
 ```
 
 Arguments passed into observable trigger are forwarded to the corresponding listeners.
@@ -23,6 +23,6 @@ Arguments passed into observable trigger are forwarded to the corresponding list
 ## Installation
 
 ```bash
-bower install observable
+bower install iamerrick-observable
 ```
 
