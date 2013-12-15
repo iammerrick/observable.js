@@ -1,0 +1,19 @@
+{
+  "name": "observable",
+  "version": "0.0.1",
+  "authors": [
+    "Merrick Christensen <merrick.christensen@gmail.com>"
+  ],
+  "description": "A simple observable implementation.",
+  "main": "src/Observable.js",
+  "keywords": [
+    "events",
+    "observable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test",
+    "karma.conf.js"
+  ]
+}
